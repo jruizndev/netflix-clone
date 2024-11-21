@@ -1,5 +1,9 @@
-import { Button } from '@/components/ui/button'
+import { Navbar } from '@/components/ui/Shared/NavBar'
 
 export default function Home() {
-    return <Button>Hello</Button>
+    return (
+        <div className="relative bg-zinc-900">
+            <Navbar />
+        </div>
+    )
 }
